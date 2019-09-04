@@ -3,26 +3,56 @@
 
 
 
-#testeira {width: 70%;height:200px;background-color:#224459; padding: 2% 5% 0 5%}
+header {
+    width: 100%;
+    height: 220px;
+    background-image: url("images/bg-header.png");
+    background-size: 100% 257px;
+    margin: 0;
+    padding: 0;
+}
 
 
-li {display: inline-flex}
+li {
+    display: inline-flex;
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
-.divlogo {float: left; width:25%;}
+.divlogo {
+    float: left;
+    width: 18%;
+    padding-top: 1%;
+    padding-right: 0;
+    padding-left: 10%;
+    padding-bottom: 0;
+    padding-top: 2%;
+}
 
 
 
-.divmenu {float: right;color:white;}
+.divmenu {
+    float: right;
+    color: white;
+    padding-top: 5%;
+    padding-right: 10%;
+	text-transform: uppercase
+}
 
 a {color: white}
 
-.menu {color: white}
+.menu {
+	
+}
 
-.bloco1 {width: 100%;height: 800px}
+.bloco1 {
+	width: 100%;
+	height: 800px
+}
 
 .foto-bloco-1 {
     float: right;
-    width: 653px
+    width: 653px;
 }
 
 .texto-bloco-1 {
