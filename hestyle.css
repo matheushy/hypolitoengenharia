@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#testeira {width: 70%;height:200px;background-color:#224459; padding: 2% 5% 0 5%}
+
+
+li {display: inline-flex}
+
+.divlogo {float: left; width:25%;}
+
+
+
+.divmenu {float: right;color:white;}
+
+a {color: white}
+
+.menu {color: white}
+
+.bloco1 {width: 100%;height: 800px}
+
+.foto-bloco-1 {
+    float: right;
+    width: 653px
+}
+
+.texto-bloco-1 {
+    max-width: 40%;
+}
+
+.titulo-bloco-1 {
+    max-width: 20%;
+}
