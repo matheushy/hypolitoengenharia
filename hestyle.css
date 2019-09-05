@@ -27,10 +27,10 @@ li {
 
 .divlogo {
     float: left;
-    width: 20%;
+    width: 17%;
     padding-top: 3%;
     padding-right: 0;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-bottom: 0;
 }
 
@@ -38,7 +38,7 @@ li {
     float: right;
     color: white;
     padding-top: 80px;
-    padding-right: 100px;
+    padding-right: 10%;
 	text-transform: uppercase
 }
 
@@ -60,7 +60,7 @@ a {color: white}
     display: inline-block;
     width: auto;
     max-width: 1000px;
-        
+      
 }
     
 .caixa-foto-bloco-1{
@@ -69,12 +69,15 @@ a {color: white}
     }
 
 .foto-bloco-1 {
+    padding: 0;
     width: 70%;
     }
     
 .caixa-texto-1 {
     display: inline-block;
-    max-width: 349px;
+    max-width: 393px;
+    vertical-align: top;
+    padding-top: 2%;
     }
 
 .titulo-bloco-1 {
