@@ -3,13 +3,19 @@
 
 
 
+
+    
+
+body {
+    margin: 0;
+    font-family: Myriad Pro;
+    }
+
+    
 header {
-    width: 100%;
     height: 220px;
     background-image: url("images/bg-header.png");
     background-size: 100% 257px;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -21,14 +27,12 @@ li {
 
 .divlogo {
     float: left;
-    width: 18%;
-    padding-top: 50px;
+    width: 20%;
+    padding-top: 3%;
     padding-right: 0;
-    padding-left: 100px;
+    padding-left: 5%;
     padding-bottom: 0;
 }
-
-
 
 .divmenu {
     float: right;
@@ -40,30 +44,45 @@ li {
 
 a {color: white}
 
- .caixa-texto-1 {
-    float: left;
-    
-    width: 400px;
-	max-height: 300px;
-} 
+
    
 
 .bloco1 {
     height: 800px;
     background-image: url("images/bg-bloco-1.png");
-	background-size: 100%;
+    background-size: 100%;
+    text-align: center;
+    padding: 200px;
+    max-width: none;
 }
+    
+.content-bloco-1 {
+    display: inline-block;
+    width: auto;
+    max-width: 1000px;
+        
+}
+    
+.caixa-foto-bloco-1{
+    display: inline-block;
+    max-height: 500px;
+    }
 
 .foto-bloco-1 {
-    width: 30%;
-    margin: 10% 10% 0 0;
-    float: right;
-}
-
-.texto-bloco-1 {
-}
+    width: 70%;
+    }
+    
+.caixa-texto-1 {
+    display: inline-block;
+    max-width: 349px;
+    }
 
 .titulo-bloco-1 {
-    /* [disabled]max-width: 78%; */
-    margin-bottom: 15%;
+
+}
+    
+.texto-bloco-1 {
+    text-align: justify;
+    
+
 }
