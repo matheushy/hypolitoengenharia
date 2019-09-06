@@ -11,11 +11,16 @@ body {
     font-family: Myriad Pro;
     }
 
+h1 {
+    color: #F2AC29;
+}
     
 header {
-    height: 220px;
     background-image: url("images/bg-header.png");
-    background-size: 100% 257px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 310px;
 }
 
 
@@ -27,19 +32,19 @@ li {
 
 .divlogo {
     float: left;
-    width: 17%;
-    padding-top: 3%;
+    width: 20%;
+    padding-top: 4%; 
     padding-right: 0;
-    padding-left: 10%;
+    padding-left: 19%;
     padding-bottom: 0;
 }
 
 .divmenu {
     float: right;
     color: white;
-    padding-top: 80px;
-    padding-right: 10%;
-	text-transform: uppercase
+    padding-top: 5%;
+    padding-right: 25%;
+    text-transform: uppercase
 }
 
 a {color: white}
@@ -51,41 +56,46 @@ a {color: white}
     height: 800px;
     background-image: url("images/bg-bloco-1.png");
     background-size: 100%;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 200px;
     max-width: none;
+    
 }
     
 .content-bloco-1 {
     display: inline-block;
     width: auto;
-    max-width: 1000px;
-      
+    /* [disabled]max-width: 1000px; */
 }
     
 .caixa-foto-bloco-1{
     display: inline-block;
-    max-height: 500px;
+    margin: 0; 
+    max-height: 400px; 
+    max-width: 742px;
     }
 
 .foto-bloco-1 {
     padding: 0;
     width: 70%;
+    -webkit-box-shadow: 2px 2px 12px 0 rgba(0,0,0,0.50);
+    box-shadow: 2px 2px 12px 0 rgba(0,0,0,0.50);
     }
     
 .caixa-texto-1 {
     display: inline-block;
-    max-width: 393px;
+    max-width: 480px;
     vertical-align: top;
-    padding-top: 2%;
+    padding-top: 1px;
     }
 
 .titulo-bloco-1 {
-
+    font-size: 40px;
 }
     
 .texto-bloco-1 {
     text-align: justify;
-    
-
+    font-style: italic;
+    font-size: 18px;
 }
