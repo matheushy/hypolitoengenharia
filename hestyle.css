@@ -11,16 +11,23 @@ body {
     font-family: Myriad Pro;
     }
 
+.bg-topo-foto {
+    background-image: url("images/bg-bloco-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 h1 {
     color: #F2AC29;
 }
     
 header {
-    background-image: url("images/bg-header.png");
+    /* background-image: url("images/bg-header.png");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color:hsla(205,86%,8%,0.80);
     width: 100%;
-    min-height: 310px;
+    min-height: 225px;
 }
 
 
@@ -32,17 +39,17 @@ li {
 
 .divlogo {
     float: left;
-    width: 20%;
-    padding-top: 4%; 
+    width: 17%;
+    padding-top: 1%; 
     padding-right: 0;
-    padding-left: 19%;
+    padding-left: 20%;
     padding-bottom: 0;
 }
 
 .divmenu {
     float: right;
     color: white;
-    padding-top: 5%;
+    padding-top: 2%;
     padding-right: 25%;
     text-transform: uppercase
 }
@@ -54,9 +61,9 @@ a {color: white}
 
 .bloco1 {
     height: 800px;
-    background-image: url("images/bg-bloco-1.png");
+    /* background-image: url("images/bg-bloco-1.png");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     text-align: center;
     padding: 200px;
     max-width: none;
